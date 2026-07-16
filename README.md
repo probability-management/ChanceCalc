@@ -37,6 +37,8 @@ Microsoft Excel
 
 - [`SPT Metalogs for SIPmath.xlsx`](<src/SPT Metalogs for SIPmath.xlsx>) - Contains pre-built SPT Metalog formulas for SIPmath integration
 
+- [`PM_Lambda_functions.xlam`](<src/PM_Lambda_functions.xlam>) - Dynamic Arrays and Lambda Functions are two recent powerful additions to Excel, and can greatly simplify the use of the HDR random number generator and Metalog Quantile functions in ChanceCalc. Because there are still a significant number of users who have not upgraded to the latest versions of Excel, we have provided Lambda Function support as a separate add-in.
+
 ## Installation
 
 - Download the ZIP archive with the current version of ChanceCalc from [here](https://github.com/probability-management/ChanceCalc/releases/)
