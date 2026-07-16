@@ -49,7 +49,8 @@ jobs:
           Copy-Item "src\ELDMetalogs_v11.xlsx" -Destination "$tempDir\" -ErrorAction SilentlyContinue
           Copy-Item "src\ELDMetalogs_v11_multi.xlsx" -Destination "$tempDir\" -ErrorAction SilentlyContinue
           Copy-Item "src\Metalogs_v11.xlsx" -Destination "$tempDir\" -ErrorAction SilentlyContinue
-          
+          Copy-Item "src\PM_Lambda_functions.xlam" -Destination "$tempDir\" -ErrorAction SilentlyContinue
+
           # Copy Libraries files (matching NSIS examples/ sources)
           Copy-Item "examples\COVID-19+Daily+Hospitalization+Forecast_url_csv_for_pm.org.SIPmath" -Destination "$tempDir\Libraries\" -ErrorAction SilentlyContinue
           Copy-Item "examples\Demand_SIP_Library.xlsx" -Destination "$tempDir\Libraries\" -ErrorAction SilentlyContinue
